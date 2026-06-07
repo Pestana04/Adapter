@@ -1,4 +1,8 @@
 package Adapter;
 
-public class IRank {
+public interface IRank {
+
+    String getRank();
+
+    void setRank(String rank);
 }
